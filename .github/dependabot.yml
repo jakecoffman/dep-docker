@@ -7,5 +7,5 @@ updates:
     ignore:
       - dependency-name: "i386/golang"
         versions:
-          - ">= 1.18"
+          - ">= 1.18.1"
           - "< 1.17"
