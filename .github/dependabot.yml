@@ -5,5 +5,5 @@ updates:
     schedule:
       interval: daily
     ignore:
-      - dependency-name: "i386/golang"
+      - dependency-name: "*"
         update-types: ['version-update:semver-major','version-update:semver-minor']
