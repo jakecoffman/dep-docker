@@ -5,7 +5,7 @@ updates:
     schedule:
       interval: daily
     ignore:
-      - dependency-name: "i386/golang"
+      - dependency-name: "*"
         versions:
-          - ">= 1.18.1"
+          - ">= 1.18"
           - "< 1.17"
